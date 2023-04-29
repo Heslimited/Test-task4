@@ -1,0 +1,147 @@
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+} 
+h1{
+    padding-top: 5%;
+    text-align: center;
+    color: #445161;
+    font-size: 30px;
+}
+h2{
+    text-align: center;
+    color: #445161;
+    font-size: 25px;
+}
+h3{
+    text-align: center;
+    color: #445161;
+    font-size: 20px;
+}
+.text{ 
+    color: #333333;
+    line-height: 25px;
+    padding: 10px 15px 20px 25px;
+    border: 10px dashed #333333;
+} 
+.bold{
+    color: #333333;
+    font-weight: 700;
+} 
+.red{ 
+    color: red;
+}
+.text-align{
+    text-align: right;
+    color: #333333;
+}
+.textuppercase{
+    text-transform: uppercase;
+}
+.font-style{
+    font-style: italic;
+}
+.text-decoration{
+    text-decoration: underline;;
+} 
+.text-align2{
+    text-align: center;
+}
+.font-size{
+    font-size: 30px;
+}
+.text-decoration2{
+    text-decoration: line-through;
+}
+.text2{
+    text-indent: 50%;
+    line-height: 100%;
+    word-spacing: 10px;
+}
+.text-shadow{
+    text-shadow: 1px 1px 2px #333333;
+} 
+.imageBlock{ 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; 
+}
+.photo{
+    border: 5px dotted #000;
+    border-radius: 50px 50px 50px 50px;
+    height: 500px; 
+    box-shadow: 5px 5px 10px 5px #000, inset 5px 5px 10px 5px #000;
+    padding: 15px;
+    margin-top: 50px;
+}
+.imageBlock2{
+    margin-top: 50px;
+    text-align: center; 
+}
+.photo2{
+    opacity: 0.8; 
+}
+.hrefs{
+    text-align: center;
+}
+.href1{
+    visibility: hidden; 
+}
+.href2{
+    opacity: 0; 
+}
+.block{
+    margin: 50px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #000;
+    background: #189;
+}
+.block2{
+    visibility: visible;
+    margin: 50px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #000;
+    background: url('../img/Снимок\ экрана\ 2023-04-18\ 133818.png');
+}
+.block3{
+    visibility: visible;
+    margin: 50px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #000;
+    background: linear-gradient(to bottom, rgba(236, 232, 157, 1) 0%,rgba(94, 83, 115, 1) 50%, rgba(25, 181, 164, 1) 100%); 
+}
+.block4{
+    visibility: visible;
+    margin: 50px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #000;
+    background: url('../img/Снимок\ экрана\ 2023-04-18\ 133818.png') no-repeat;
+}
+.block5{
+    visibility: visible;
+    margin: 50px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #000;
+    background: url('../img/Снимок\ экрана\ 2023-04-18\ 133818.png') 100px 50px no-repeat;
+    background-size: 10%;
+}
+.block6{
+    visibility: visible;
+    margin: 50px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #000; 
+    background: url('../img/you.png') 50%/100px no-repeat, url('../img/instagram.png') 100px 20px/200px no-repeat, url('../img/back.jpg') 50%/cover no-repeat; 
+}
+.block7{
+    visibility: visible;
+    margin: 50px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #000; 
+    background: url('../img/Снимок\ экрана\ 2023-04-18\ 133818.png') fixed;
+}
